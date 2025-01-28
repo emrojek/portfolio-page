@@ -11,8 +11,8 @@ Status: Stable
 
 ## Features
 
-- 🌐 Web version and print version
-- 🖨️ Downloadable PDF version
+- 🌐 Web and print version
+- 🖨️ Print to PDF via button
 - 💼 Professional experience showcase
 
 ## Coming Soon

@@ -18,7 +18,10 @@ body {
 	width: 100%;
 	max-width: 1200px;
 	min-height: 100px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-container.web-version {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .left-side {
@@ -181,7 +184,7 @@ body {
 .rodo {
 	text-align: justify;
 	line-height: 1.4;
-	font-size: 12px;
+	font-size: 10px;
 	margin-top: auto;
 }
 

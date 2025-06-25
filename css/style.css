@@ -102,11 +102,51 @@ body {
 	border-bottom: 1px solid rgba(255, 255, 255);
 }
 
-.languages ul li,
-.skills ul li,
-.experience ul li {
-	margin-left: 15px;
-	margin-top: 10px;
+.left-side .skills ul,
+.left-side .languages ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.left-side .skills ul li,
+.left-side .languages ul li {
+    margin-left: 0;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.left-side .skills ul li::before,
+.left-side .languages ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    line-height: inherit;
+}
+
+.right-side .experience .job-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.right-side .experience .job-content ul li {
+    margin-left: 0;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.right-side .experience .job-content ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #333;
+    line-height: inherit;
 }
 
 .right-section-title {
@@ -120,6 +160,7 @@ body {
 	text-align: justify;
 }
 
+.about-me,
 .experience,
 .education,
 .interests,
@@ -362,6 +403,7 @@ body {
 .print-education h4,
 .print-experience-content h4 {
     margin-bottom: 5px;
+    margin-left: 0;
 }
 
 .print-columns,
@@ -378,11 +420,49 @@ body {
     width: 50%;
 }
 
-.print-skills ul,
-.print-languages ul,
-.print-experience-content ul {
-    list-style-type: disc;
-    list-style-position: inside;
+.print-version .print-skills ul,
+.print-version .print-languages ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.print-version .print-skills li,
+.print-version .print-languages li {
+    margin-bottom: 5px;
+    margin-left: 0;
+    position: relative;
+    padding-left: 10px;
+}
+
+.print-version .print-skills li::before,
+.print-version .print-languages li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: #333;
+    line-height: inherit;
+}
+
+.print-version .print-experience-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.print-version .print-experience-content li {
+    margin-bottom: 5px;
+    margin-left: 0;
+    position: relative;
+    padding-left: 10px;
+}
+
+.print-version .print-experience-content li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: #333;
+    line-height: inherit;
 }
 
 .print-version .icon {

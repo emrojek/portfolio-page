@@ -6,23 +6,8 @@ A personal CV website with both web and print (PDF) versions. Built to showcase 
 
 - Available on [Page](https://emrojek.github.io/portfolio-page/)
 
-Current version: 1.0.0
-Status: Stable
-
 ## Features
 
 - 🌐 Web and print version
 - 🖨️ Print to PDF via button
 - 💼 Professional experience showcase
-
-## Coming Soon
-
-- 📱 Responsive web design
-- 🎨 Styling and interactivity improvements
-- 💻 Portfolio page on the web version
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript

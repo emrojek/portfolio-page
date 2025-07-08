@@ -241,11 +241,17 @@ body {
 	align-self: flex-end;
 	margin-bottom: 10px;
 	display: flex;
+	flex-direction: column;
 	gap: 10px;
 	background: #fff;
 	padding: 10px;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.version-switch-top-row {
+	display: flex;
+	gap: 10px;
 }
 
 .version-switch .generate-pdf-btn {
@@ -269,22 +275,20 @@ body {
 .switch-btn {
 	border: 1px solid #ccc;
 	background: #fff;
+	color: #333;
 	transition: all 0.3s;
 }
 
 .generate-pdf-btn {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	background-color: #e6e6e6;
+	background-color: #fff;
 	color: #333;
-	border: none;
-	z-index: 1000;
+	border: 1px solid #ccc;
+	transition: all 0.3s;
+	width: 100%;
 }
 
 .switch-btn,
 .generate-pdf-btn {
-	width: 135px;
 	height: 35px;
 	padding: 8px 10px;
 	border-radius: 4px;
@@ -296,13 +300,15 @@ body {
 }
 
 .generate-pdf-btn:hover {
-	background-color: #e6e6e6;
+	background-color: #a4a4a4;
+	color: #fff;
+	border-color: #a4a4a4;
 }
 
 .switch-btn.active {
-	background: #e6e6e6;
-	color: #333;
-	border-color: #e6e6e6;
+	background: #a4a4a4;
+	color: #fff;
+	border-color: #a4a4a4;
 }
 
 .print-version {

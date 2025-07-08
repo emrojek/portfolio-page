@@ -18,8 +18,11 @@
 	<body>
 		<div class="page-container">
 			<div class="version-switch">
-				<button class="switch-btn active" data-version="web">Web Version</button>
-				<button class="switch-btn" data-version="print">Print Version</button>
+				<div class="version-switch-top-row">
+					<button class="switch-btn active" data-version="web">Web Version</button>
+					<button class="switch-btn" data-version="print">Print Version</button>
+				</div>
+				<button class="generate-pdf-btn">Generate PDF</button>
 			</div>
 
 			<!-- WEB VERSION -->
@@ -170,8 +173,6 @@
 
 			<!-- PRINT VERSION -->
 			<div class="main-container print-version">
-				<button class="generate-pdf-btn">Generate PDF</button>
-
 				<div class="print-header">
 					<img src="./assets/images/profile-photo.jpeg" alt="profile-photo" />
 					<div class="print-title">

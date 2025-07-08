@@ -1,263 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Michał Rojek - CV</title>
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+		<script src="./js/version-switch.js"></script>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Michał Rojek - CV</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="./js/version-switch.js"></script>
-</head>
+	<body>
+		<div class="page-container">
+			<div class="version-switch">
+				<div class="version-switch-top-row">
+					<button class="switch-btn active" data-version="web">Web Version</button>
+					<button class="switch-btn" data-version="print">Print Version</button>
+				</div>
+				<button class="generate-pdf-btn">Generate PDF</button>
+			</div>
 
-<body>
-    <div class="version-switch">
-        <button class="switch-btn active" data-version="web">Web Version</button>
-        <button class="switch-btn" data-version="print">Print Version</button>
-    </div>
+			<!-- WEB VERSION -->
+			<div class="main-container web-version">
+				<div class="left-side">
+					<div class="profile-section">
+						<img src="./assets/images/profile-photo.jpeg" alt="profile-photo" />
+						<div class="profile-section-text">
+							<h2>Michał Rojek</h2>
+							<span>Software Tester</span>
+						</div>
+					</div>
 
-    <!-- WEB VERSION -->
-    <div class="main-container web-version">
-        <div class="left-side">
-            <div class="profile-section">
-                <img src="./assets/images/profile-photo.jpeg" alt="profile-photo">
-                <div class="profile-section-text">
-                    <h2>Michał Rojek</h2>
-                    <span>Software Tester</span>
-                </div>
-            </div>
+					<div class="contact">
+						<h3 class="left-section-title">Contact</h3>
+						<ul>
+							<li>
+								<span class="icon"><i class="bx bxs-home"></i></span>
+								<span>Szczecin</span>
+							</li>
+							<li>
+								<span class="icon"><i class="bx bxs-envelope"></i></span>
+								<span>michal.rojek.it@gmail.com</span>
+							</li>
+							<li>
+								<span class="icon"><i class="bx bxl-linkedin-square"></i></span>
+								<a href="https://www.linkedin.com/in/micha%C5%82-rojek/" target="_blank"><span>Linkedin</span></a>
+							</li>
+							<li>
+								<span class="icon"><i class="bx bxl-github"></i></span>
+								<a href="https://github.com/emrojek" target="_blank"><span>Github</span></a>
+							</li>
+						</ul>
+					</div>
 
-            <div class="contact">
-                <h3 class="left-section-title">Contact</h3>
-                <ul>
-                    <li>
-                        <span class="icon"><i class='bx bxs-home'></i></span>
-                        <span>Szczecin</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class='bx bxs-envelope'></i></span>
-                        <span>michal.rojek.it@gmail.com</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class='bx bxl-linkedin-square'></i></span>
-                        <a href="https://www.linkedin.com/in/micha%C5%82-rojek/" target="_blank"><span>Linkedin</span></a>
-                    </li>
-                    <li>
-                        <span class="icon"><i class='bx bxl-github'></i></span>
-                        <a href="https://github.com/emrojek" target="_blank"><span>Github</span></a>
-                    </li>
-                </ul>
-            </div>
+					<div class="skills">
+						<h3 class="left-section-title">Skills & Tools</h3>
+						<ul>
+							<li>JavaScript / TypeScript - in progress</li>
+							<li>Playwright - learning</li>
+							<li>Regression Testing</li>
+							<li>Functional Testing</li>
+							<li>REST APIs</li>
+							<li>DevTools</li>
+							<li>Postman</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>SQL</li>
+						</ul>
+					</div>
 
-            <div class="skills">
-                <h3 class="left-section-title">Skills & Tools</h3>
-                <ul>
-                    <li>JavaScript / TypeScript - in progress</li>
-                    <li>Playwright - learning</li>
-                    <li>Regression Testing</li>
-                    <li>Functional Testing</li>
-                    <li>REST APIs</li>
-                    <li>DevTools</li>
-                    <li>Postman</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SQL</li>
-                </ul>
-            </div>
+					<div class="languages">
+						<h3 class="left-section-title">Languages</h3>
+						<ul>
+							<li>Polish - Native</li>
+							<li>English - B2</li>
+						</ul>
+					</div>
+				</div>
 
-            <div class="languages">
-                <h3 class="left-section-title">Languages</h3>
-                <ul>
-                    <li>Polish - Native</li>
-                    <li>English - B2</li>
-                </ul>
-            </div>
-        </div>
+				<div class="right-side">
+					<div class="about-me">
+						<h2 class="right-section-title">About me</h2>
+						<p>
+							Manual tester with experience in desktop, web, and mobile applications, as well as APIs, gained through
+							working on complex projects for business clients. I specialize in functional and regression testing,
+							collaborating with project teams to deliver high-quality software. Currently, I am expanding my expertise
+							in JavaScript and TypeScript, exploring test automation with Playwright.
+						</p>
+					</div>
 
-        <div class="right-side">
-            <div class="about-me">
-                <h2 class="right-section-title">About me</h2>
-                <p>Manual tester with experience in desktop, web, and mobile applications, as well as APIs, gained through working on complex projects for business clients. I specialize in functional and regression testing, collaborating with project teams to deliver high-quality software. Currently, I am expanding my expertise in JavaScript and TypeScript, exploring test automation with Playwright.</p>
-            </div>
+					<div class="experience">
+						<h2 class="right-section-title">Experience</h2>
+						<div class="info-container">
+							<div class="job-content">
+								<div class="job-details">
+									<span>SB Software | </span>
+									<span>01.2023 - Present</span>
+								</div>
+								<h4>Software Tester</h4>
+								<ul>
+									<li>Execute web, desktop, and mobile applications tests.</li>
+									<li>Collaborate with teams to ensure quality during the quality assurance process.</li>
+									<li>Maintain technical documentation and provide customer support.</li>
+									<li>Develop SQL queries for testing purposes.</li>
+									<li>Perform API and automated tests using Postman.</li>
+									<li>Create and manage collections in Postman.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-            <div class="experience">
-                <h2 class="right-section-title">Experience</h2>
-                <div class="info-container">
-                    <div class="job-content">
-                        <div class="job-details">
-                            <span>SB Software | </span>
-                            <span>01.2023 - Present</span>
-                        </div>
-                        <h4>Software Tester</h4>
-                        <ul>
-                            <li>Execute web, desktop, and mobile applications tests.</li>
-                            <li>Collaborate with teams to ensure quality during the quality assurance process.</li>
-                            <li>Maintain technical documentation and provide customer support.</li>
-                            <li>Develop SQL queries for testing purposes.</li>
-                            <li>Perform API and automated tests using Postman.</li>
-                            <li>Create and manage collections in Postman.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+					<div class="education">
+						<h2 class="right-section-title">Education</h2>
+						<div class="info-container">
+							<div class="education-place">
+								<h4>2020-2024</h4>
+								<h4>WSB Merito University in Szczecin</h4>
+							</div>
+							<div class="education-title">
+								<h4 class="education-degree">Bachelor's Degree in Computer Science</h4>
+							</div>
+						</div>
+					</div>
 
-            <div class="education">
-                <h2 class="right-section-title">Education</h2>
-                <div class="info-container">
-                    <div class="education-place">
-                        <h4>2020-2024</h4>
-                        <h4>WSB Merito University in Szczecin</h4>
-                    </div>
-                    <div class="education-title">
-                        <h4 class="education-degree">Bachelor's Degree in Computer Science</h4>
-                    </div>
-                </div>
-            </div>
+					<div class="certificates">
+						<h2 class="right-section-title">Certificates</h2>
+						<div class="info-container">
+							<div class="certificate-place">
+								<h4>05-2025</h4>
+								<h4>Polish Testing Board</h4>
+							</div>
+							<div class="certificate-title">
+								<h4>ISTQB&reg; Certified Tester Foundation Level</h4>
+							</div>
+						</div>
+					</div>
 
-            <div class="interests">
-                <h2 class="right-section-title">Interests</h2>
-                <div class="info-container">
-                    <div class="hobby-1">
-                        <span class="hobby-icon"><i class='bx bx-joystick'></i></span>
-                        <span>Gaming</span>
-                    </div>
-                    <div class="hobby-2">
-                        <span class="hobby-icon"><i class='bx bx-book-alt'></i></span>
-                        <span>Reading</span>
-                    </div>
-                    <div class="hobby-3">
-                        <span class="hobby-icon"><i class='bx bx-bar-chart-alt-2'></i></span>
-                        <span>Saving</span>
-                    </div>
-                </div>
-            </div>
+					<div class="interests">
+						<h2 class="right-section-title">Interests</h2>
+						<div class="info-container">
+							<div class="hobby-1">
+								<span class="hobby-icon"><i class="bx bx-joystick"></i></span>
+								<span>Gaming</span>
+							</div>
+							<div class="hobby-2">
+								<span class="hobby-icon"><i class="bx bx-book-alt"></i></span>
+								<span>Reading</span>
+							</div>
+							<div class="hobby-3">
+								<span class="hobby-icon"><i class="bx bx-bar-chart-alt-2"></i></span>
+								<span>Saving</span>
+							</div>
+						</div>
+					</div>
 
-            <div class="rodo">
-                <p>I agree to the processing of personal data provided in this document for realising the recruitment
-                    process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item
-                    1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council
-                    of 27 April 2016 on the protection of natural persons with regard to the processing of personal data
-                    and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection
-                    Regulation).</p>
-            </div>
-        </div>
-    </div>
+					<div class="rodo">
+						<p>
+							I agree to the processing of personal data provided in this document for realising the recruitment process
+							pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in
+							agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on
+							the protection of natural persons with regard to the processing of personal data and on the free movement
+							of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
+						</p>
+					</div>
+				</div>
+			</div>
 
-    <!-- PRINT VERSION -->
-    <div class="main-container print-version" style="display: none;">
-        <button class="generate-pdf-btn">Generate PDF</button>
+			<!-- PRINT VERSION -->
+			<div class="main-container print-version">
+				<div class="print-header">
+					<img src="./assets/images/profile-photo.jpeg" alt="profile-photo" />
+					<div class="print-title">
+						<h1>Michał Rojek</h1>
+						<h2>Software Tester</h2>
+					</div>
+				</div>
 
-        <div class="print-header">
-            <img src="./assets/images/profile-photo.jpeg" alt="profile-photo">
-            <div class="print-title">
-                <h1>Michał Rojek</h1>
-                <h2>Software Tester</h2>
-            </div>
-        </div>
-    
-        <div class="print-contact">
-            <h3>CONTACT</h3>
-            <div class="print-contact-wrapper">
-                <p>
-                    <span class="icon"><i class='bx bxs-home'></i></span>
-                    <span>Szczecin</span>
-                </p>
-                <p>
-                    <span class="icon"><i class='bx bxs-envelope'></i></span>
-                    <span>michal.rojek.it@gmail.com</span>
-                </p>
-                <p>
-                    <span class="icon"><i class='bx bxl-linkedin-square'></i></span>
-                    <a href="https://www.linkedin.com/in/micha%C5%82-rojek/" target="_blank"><span>Linkedin</span></a>
-                </p>
-                <p>
-                    <span class="icon"><i class='bx bxl-github'></i></span>
-                    <a href="https://github.com/emrojek" target="_blank"><span>Github</span></a>
-                </p>
-            </div>
-        </div>
-    
-        <div class="print-about">
-            <h3>About Me</h3>
-            <p>Manual tester with experience in desktop, web, and mobile applications, as well as APIs, gained through working on complex projects for business clients. I specialize in functional and regression testing, collaborating with project teams to deliver high-quality software. Currently, I am expanding my expertise in JavaScript and TypeScript, exploring test automation with Playwright.</p>
-        </div>
-    
-        <div class="print-experience">
-            <h3>Experience</h3>
-            <div class="print-experience-item">
-                <div class="print-experience-content">
-                    <div class="print-experience-details">
-                        <span>SB Software | </span>
-                        <span>01.2023 - Present</span>
-                    </div>
-                    <h4>Software Tester</h4>
-                    <ul>
-                        <li>Execute web, desktop, and mobile applications tests.</li>
-                        <li>Collaborate with teams to ensure quality during the quality assurance process.</li>
-                        <li>Maintain technical documentation and provide customer support.</li>
-                        <li>Develop SQL queries for testing purposes.</li>
-                        <li>Perform API and automated tests using Postman.</li>
-                        <li>Create and manage collections in Postman.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    
-        <div class="print-columns">
-            <div class="print-skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>JavaScript / TypeScript - in progress</li>
-                    <li>Playwright - learning</li>
-                    <li>Regression Testing</li>
-                    <li>Functional Testing</li>
-                    <li>REST APIs</li>
-                    <li>DevTools</li>
-                    <li>Postman</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SQL</li>
-                </ul>
-            </div>
+				<div class="print-contact">
+					<h3>CONTACT</h3>
+					<div class="print-contact-wrapper">
+						<p>
+							<span class="icon"><i class="bx bxs-home"></i></span>
+							<span>Szczecin</span>
+						</p>
+						<p>
+							<span class="icon"><i class="bx bxs-envelope"></i></span>
+							<span>michal.rojek.it@gmail.com</span>
+						</p>
+						<p>
+							<span class="icon"><i class="bx bxl-linkedin-square"></i></span>
+							<a href="https://www.linkedin.com/in/micha%C5%82-rojek/" target="_blank"><span>Linkedin</span></a>
+						</p>
+						<p>
+							<span class="icon"><i class="bx bxl-github"></i></span>
+							<a href="https://github.com/emrojek" target="_blank"><span>Github</span></a>
+						</p>
+					</div>
+				</div>
 
-            <div class="print-education">
-                <h3>Education</h3>
-                <div class="print-education-item">
-                    <h4>Bachelor's Degree in Computer Science</h4>
-                    <p>WSB Merito University in Szczecin</p>
-                    <span>2020-2024</span>
-                </div>
-            </div>
-        </div>
-    
-        <div class="print-footer">
-            <div class="print-languages">
-                <h3>Languages</h3>
-                <ul>
-                    <li>Polish - Native</li>
-                    <li>English - B2</li>
-                </ul>
-            </div>
+				<div class="print-about">
+					<h3>About Me</h3>
+					<p>
+						Manual tester with experience in desktop, web, and mobile applications, as well as APIs, gained through
+						working on complex projects for business clients. I specialize in functional and regression testing,
+						collaborating with project teams to deliver high-quality software. Currently, I am expanding my expertise in
+						JavaScript and TypeScript, exploring test automation with Playwright.
+					</p>
+				</div>
 
-            <div class="print-interests">
-                <h3>Interests</h3>
-                <div class="interests-list">
-                    <span><i class='bx bx-joystick'></i>Gaming</span>
-                    <span><i class='bx bx-book-alt'></i>Reading</span>
-                    <span><i class='bx bx-bar-chart-alt-2'></i>Saving</span>
-                </div>
-            </div>
-        </div>
-    
-        <div class="print-rodo">
-            <small>I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).</small>
-        </div>
-    </div>
+				<div class="print-experience">
+					<h3>Experience</h3>
+					<div class="print-experience-item">
+						<div class="print-experience-content">
+							<div class="print-experience-details">
+								<span>SB Software | </span>
+								<span>01.2023 - Present</span>
+							</div>
+							<h4>Software Tester</h4>
+							<ul>
+								<li>Execute web, desktop, and mobile applications tests.</li>
+								<li>Collaborate with teams to ensure quality during the quality assurance process.</li>
+								<li>Maintain technical documentation and provide customer support.</li>
+								<li>Develop SQL queries for testing purposes.</li>
+								<li>Perform API and automated tests using Postman.</li>
+								<li>Create and manage collections in Postman.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
-</body>
+				<div class="print-columns">
+					<div class="print-skills">
+						<h3>Skills & Tools</h3>
+						<ul>
+							<li>JavaScript / TypeScript - in progress</li>
+							<li>Playwright - learning</li>
+							<li>Regression Testing</li>
+							<li>Functional Testing</li>
+							<li>REST APIs</li>
+							<li>DevTools</li>
+							<li>Postman</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>SQL</li>
+						</ul>
+					</div>
 
+					<div class="print-right-column">
+						<div class="print-education">
+							<h3>Education</h3>
+							<div class="print-education-item">
+								<h4>Bachelor's Degree in Computer Science</h4>
+								<p>WSB Merito University in Szczecin</p>
+								<span>2020-2024</span>
+							</div>
+						</div>
+
+						<div class="print-certificates">
+							<h3>Certificates</h3>
+							<div class="print-certificate-item">
+								<h4>ISTQB&reg; Certified Tester Foundation Level</h4>
+								<p>Polish Testing Board</p>
+								<span>05-2025</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="print-footer">
+					<div class="print-languages">
+						<h3>Languages</h3>
+						<ul>
+							<li>Polish - Native</li>
+							<li>English - B2</li>
+						</ul>
+					</div>
+
+					<div class="print-interests">
+						<h3>Interests</h3>
+						<div class="interests-list">
+							<span><i class="bx bx-joystick"></i>Gaming</span>
+							<span><i class="bx bx-book-alt"></i>Reading</span>
+							<span><i class="bx bx-bar-chart-alt-2"></i>Saving</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="print-rodo">
+					<small
+						>I agree to the processing of personal data provided in this document for realising the recruitment process
+						pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in
+						agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on
+						the protection of natural persons with regard to the processing of personal data and on the free movement of
+						such data, and repealing Directive 95/46/EC (General Data Protection Regulation).</small
+					>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

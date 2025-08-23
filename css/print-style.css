@@ -1,0 +1,214 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
+.print-version {
+    font-size: 11.5px;
+    background-color: #fff;
+    line-height: 1.35;
+    color: #333;
+    padding: 15px 15px 55px 15px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 295mm;
+}
+
+.print-version h1, .print-version h2, .print-version h4 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.print-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.print-header img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.print-title h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.print-title h2 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.print-version h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    margin: 0 0 8px 0;
+    border-bottom: 2px solid #333;
+}
+
+.print-section {
+    margin-top: 20px;
+}
+
+.print-contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.print-contact-wrapper p {
+    margin: 0;
+}
+
+.print-contact-wrapper p span {
+    vertical-align: middle;
+}
+
+.print-contact .icon, .print-contact-wrapper .icon {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.print-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.print-about p {
+    text-align: justify;
+}
+
+.print-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.print-list li {
+    position: relative;
+    padding-left: 15px; 
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.print-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: #333;
+}
+
+.print-experience-item .job-meta {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.print-experience-item .job-title-main {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.print-left-column, .print-right-column {
+    width: 50%;
+}
+
+.print-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.print-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.print-skills ul, .print-languages ul, .print-version .skills-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.print-education, .print-certificates {
+    margin-bottom: 0;
+}
+
+.print-education h4, .print-certificates h4 {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.print-education p, .print-certificates p {
+    margin: 0 0 4px 0;
+}
+
+.interests-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interests-list span {
+    display: flex;
+    align-items: center;
+}
+.interests-list span i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.print-rodo {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    color: #666;
+    line-height: 1.2;
+    font-size: 8px;
+    text-align: justify;
+}
+
+.print-footer-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.tag-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.tag-list li {
+    display: inline-block;
+    font-size: 10.5px;
+    background-color: #f0f0f0;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 4px;
+    line-height: 1.3;
+}

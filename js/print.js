@@ -44,17 +44,18 @@ document.addEventListener('DOMContentLoaded', () => {
 			},
 		],
 		skills: [
-			'JavaScript / TypeScript - learning',
-			'Playwright - learning',
+			'JavaScript',
+			'TypeScript',
+			'Playwright',
 			'Regression Testing',
 			'Functional Testing',
 			'REST APIs',
 			'DevTools',
 			'Postman',
+			'CLI',
 			'HTML',
 			'CSS',
 			'SQL',
-			'CLI',
 		],
 		education: [
 			{

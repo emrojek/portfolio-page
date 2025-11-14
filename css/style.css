@@ -40,7 +40,6 @@ main {
 
 .cv-section p {
     text-align: justify;
-    font-style: italic;
 }
 
 .section-title {
@@ -330,6 +329,10 @@ main {
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 20px 20px;
     }
 }
 

@@ -20,4 +20,4 @@ An interactive personal CV website built to showcase my professional experience,
 
 ## Future Enhancements
 
--   Full Responsiveness (Mobile View)
+-   Additional visual polish and minor layout tweaks

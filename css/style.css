@@ -332,7 +332,108 @@ main {
     }
 
     main {
-        padding: 20px 20px;
+        padding: 15px 15px;
+    }
+
+    body {
+        font-size: 0.95rem;
+    }
+
+    .profile-photo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .section-title {
+        font-size: 1.4em;
+    }
+
+    .cv-header {
+        padding: 30px 15px;
+    }
+
+    .cv-name {
+        font-size: 2.1em;
+    }
+
+    .cv-title {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .contact-links {
+        gap: 12px;
+        row-gap: 8px;
+        margin-top: 10px;
+    }
+
+    .contact-links a,
+    .contact-links .contact-location {
+        font-size: 0.95em;
+    }
+
+    .timeline-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timeline-content .company-logo {
+        margin-bottom: 10px;
+    }
+
+    .timeline-item::before,
+    .timeline-item::after {
+        display: none;
+    }
+
+    .timeline {
+        gap: 30px;
+    }
+
+    .cv-section {
+        margin-bottom: 35px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-description {
+        min-height: auto;
+        font-size: 0.9em;
+    }
+
+    .print-button-container {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.3em;
+    }
+
+    .cv-container {
+        margin: 10px auto;
+    }
+
+    .cv-name {
+        font-size: 1.8em;
+    }
+
+    .cv-title {
+        font-size: 1em;
+    }
+
+    .project-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
     }
 }
 

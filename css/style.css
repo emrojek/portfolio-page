@@ -372,6 +372,10 @@ main {
         font-size: 0.95em;
     }
 
+    .contact-links a:hover {
+        transform: none;
+    }
+
     .timeline-content {
         flex-direction: column;
         align-items: flex-start;

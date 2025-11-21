@@ -1,6 +1,6 @@
 export const cvData = {
 	name: 'Michał Rojek',
-	title: 'QA / Software Tester',
+	title: 'QA Engineer',
 	profilePhoto: './assets/images/profile-photo.jpeg',
 	contact: {
 		linkedin: 'linkedin.com/in/michał-rojek',
@@ -8,17 +8,15 @@ export const cvData = {
 		email: 'michal.rojek.it@gmail.com',
 		location: 'Szczecin',
 	},
-	aboutMe: `Experienced in testing web and desktop applications, as well as APIs, across complex business domains,
-				including a recent automotive project. Specializing in functional and regression testing, 
-				I work closely with teams to ensure high-quality software. Currently expanding my skills in JavaScript 
-				and TypeScript to develop automated tests with Playwright.`,
+	aboutMe: `Experienced in manual testing of web applications, performing functional, regression, and API tests across various business domains. 
+			Collaborating with teams to ensure high-quality software delivery. 
+			Actively developing test automation skills with Playwright and TypeScript through personal projects.`,
 	experience: [
 		{
-			title: 'Junior QA Engineer',
+			title: 'QA Engineer',
 			company: 'Spyrosoft',
 			period: '03.2025 - Present',
 			duties: [
-				'Testing the Vehicle Abstraction Layer within an automotive project for a German brand.',
 				'Executing manual tests along with re-testing using dedicated software.',
 				'Running automated test suites via CLI and through GitLab pipelines.',
 				'Performing stress tests, and analyzing system logs to identify potential issues.',

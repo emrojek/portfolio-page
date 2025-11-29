@@ -150,11 +150,15 @@ const openPrintPreview = data => {
 	iframe.contentDocument.documentElement.innerHTML = buildPrintLayoutHTML(data);
 
 	setTimeout(() => {
+		const originalTitle = document.title;
+		document.title = `Michal Rojek - CV`;
+
 		try {
 			iframe.contentWindow.focus();
 			iframe.contentWindow.print();
 		} finally {
 			document.body.removeChild(iframe);
+			document.title = originalTitle;
 		}
 	}, 500);
 };

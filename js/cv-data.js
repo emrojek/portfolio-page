@@ -1,7 +1,7 @@
 export const cvData = {
 	name: 'Michał Rojek',
 	title: 'QA Engineer',
-	profilePhoto: './assets/images/profile-photo.jpeg',
+	profilePhoto: './assets/images/profile-photo.jpg',
 	contact: {
 		linkedin: 'linkedin.com/in/michał-rojek',
 		github: 'github.com/emrojek',
@@ -47,10 +47,13 @@ export const cvData = {
 		'REST APIs',
 		'DevTools',
 		'Postman',
-		'CLI',
+		'Bruno',
+		'Jira',
 		'HTML',
 		'CSS',
 		'SQL',
+		'Git',
+		'CLI',
 	],
 	education: [
 		{

@@ -8,9 +8,9 @@ export const cvData = {
 		email: 'michal.rojek.it@gmail.com',
 		location: 'Szczecin',
 	},
-	aboutMe: `Experienced in manual testing of web applications, performing functional, regression, and API tests across various business domains. 
-			Collaborating with teams to ensure high-quality software delivery. 
-			Actively developing test automation skills with Playwright and TypeScript through personal projects.`,
+	aboutMe: `QA Engineer with experience in manual and automated testing of web applications, 
+			including E2E and API test automation with Playwright and TypeScript. 
+			ISTQB FL certified. Seeking a role focused on test automation in web environments.`,
 	experience: [
 		{
 			title: 'QA Engineer',
@@ -21,7 +21,7 @@ export const cvData = {
 				'Running automated test suites via CLI and through GitLab pipelines.',
 				'Performing stress tests, and analyzing system logs to identify potential issues.',
 				'Reporting, tracking, and documenting identified software defects using Jira.',
-				'Actively collaborating within an international team in an Agile environment.',
+				'Collaborating within an international team in an Agile environment.',
 			],
 		},
 		{
@@ -30,7 +30,7 @@ export const cvData = {
 			period: '01.2023 - 02.2025',
 			duties: [
 				'Executing web, desktop, and mobile application tests.',
-				'Creating and maintaining basic E2E test scenarios using Playwright.',
+				'Creating and maintaining E2E test scenarios using Playwright.',
 				'Performing API automation tests and managing collections using Postman.',
 				'Developing SQL queries for testing purposes.',
 				'Maintaining technical documentation and providing customer support.',
@@ -38,23 +38,11 @@ export const cvData = {
 			],
 		},
 	],
-	skills: [
-		'JavaScript',
-		'TypeScript',
-		'Playwright',
-		'Regression Testing',
-		'Functional Testing',
-		'REST APIs',
-		'DevTools',
-		'Postman',
-		'Bruno',
-		'Jira',
-		'HTML',
-		'CSS',
-		'SQL',
-		'Git',
-		'CLI',
-	],
+	skills: {
+		'Automation & Dev': ['Playwright', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Git', 'SQL', 'CLI'],
+		Testing: ['Functional Testing', 'Regression Testing', 'REST APIs'],
+		Tools: ['Postman', 'Bruno', 'Jira', 'DevTools'],
+	},
 	education: [
 		{
 			degree: "Bachelor's Degree in Computer Science",
@@ -66,12 +54,12 @@ export const cvData = {
 		{
 			name: 'ISTQB® Certified Tester Foundation Level',
 			board: 'Polish Testing Board',
-			validity: '05-2025',
+			obtained: '05-2025',
 		},
 	],
 	languages: [
 		{ lang: 'Polish', level: 'Native' },
-		{ lang: 'English', level: 'B1 / B2' },
+		{ lang: 'English', level: 'B2' },
 	],
 	interests: [
 		{ name: 'Gaming', icon: 'bx-joystick' },

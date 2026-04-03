@@ -15,7 +15,15 @@ const buildExperienceHTML = experience =>
 		)
 		.join('');
 
-const buildSkillsHTML = skills => `<ul class="tag-list">${skills.map(skill => `<li>${skill}</li>`).join('')}</ul>`;
+const buildSkillsHTML = skills =>
+	Object.entries(skills)
+		.map(
+			([category, items]) => `
+				<p class="skills-category">${category}</p>
+				<ul class="tag-list">${items.map(skill => `<li>${skill}</li>`).join('')}</ul>
+			`
+		)
+		.join('');
 
 const buildLanguagesHTML = languages =>
 	`<ul class="tag-list">${languages.map(lang => `<li>${lang.lang} - ${lang.level}</li>`).join('')}</ul>`;
@@ -45,7 +53,7 @@ const buildCertificatesHTML = certificates =>
                 <div class="print-certificate-item">
                     <h4>${cert.name}</h4>
                     <p>${cert.board}</p>
-                    <span>${cert.validity}</span>
+                    <span>${cert.obtained}</span>
                 </div>
             `
 		)

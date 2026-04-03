@@ -212,3 +212,16 @@ body {
     border-radius: 4px;
     line-height: 1.3;
 }
+
+.skills-category {
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 8px 0 2px 0;
+    color: #555;
+    letter-spacing: 0.04em;
+}
+
+.skills-category:first-of-type {
+    margin-top: 0;
+}

@@ -325,6 +325,19 @@ main {
     cursor: default;
 }
 
+.skills-category-group {
+    margin-bottom: 16px;
+}
+
+.skills-category {
+    font-size: 0.85em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    margin: 0 0 8px 0;
+    letter-spacing: 0.05em;
+}
+
 /* === MEDIA QUERIES === */
 @media (max-width: 768px) {
     .projects-grid {

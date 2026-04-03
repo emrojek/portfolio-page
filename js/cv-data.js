@@ -61,10 +61,5 @@ export const cvData = {
 		{ lang: 'Polish', level: 'Native' },
 		{ lang: 'English', level: 'B2' },
 	],
-	interests: [
-		{ name: 'Gaming', icon: 'bx-joystick' },
-		{ name: 'Reading', icon: 'bx-book-alt' },
-		{ name: 'Saving', icon: 'bx-bar-chart-alt-2' },
-	],
 	footer: `I consent to the processing of my personal data for the purposes of the recruitment process.`,
 };

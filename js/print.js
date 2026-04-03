@@ -28,11 +28,6 @@ const buildSkillsHTML = skills =>
 const buildLanguagesHTML = languages =>
 	`<ul class="tag-list">${languages.map(lang => `<li>${lang.lang} - ${lang.level}</li>`).join('')}</ul>`;
 
-const buildInterestsHTML = interests =>
-	`<div class="interests-list">${interests
-		.map(interest => `<span><i class="bx ${interest.icon}"></i> ${interest.name}</span>`)
-		.join('')}</div>`;
-
 const buildEducationHTML = education =>
 	education
 		.map(
@@ -63,7 +58,6 @@ const buildPrintLayoutHTML = data => {
 	const experienceHTML = buildExperienceHTML(data.experience);
 	const skillsHTML = buildSkillsHTML(data.skills);
 	const languagesHTML = buildLanguagesHTML(data.languages);
-	const interestsHTML = buildInterestsHTML(data.interests);
 	const educationHTML = buildEducationHTML(data.education);
 	const certificatesHTML = buildCertificatesHTML(data.certificates);
 
@@ -123,17 +117,10 @@ const buildPrintLayoutHTML = data => {
 										<h3>Certificates</h3>
 										${certificatesHTML}
 									</div>
-								</div>
-							</div>
-
-							<div class="print-footer-columns print-section">
-								<div class="footer-column">
-									<h3>Languages</h3>
-									${languagesHTML}
-								</div>
-								<div class="footer-column">
-									<h3>Interests</h3>
-									${interestsHTML}
+									<div class="print-languages">
+										<h3>Languages</h3>
+										${languagesHTML}
+									</div>
 								</div>
 							</div>
 

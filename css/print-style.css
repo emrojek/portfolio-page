@@ -139,8 +139,7 @@ body {
 .print-right-column {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-
+    gap: 30px;
 }
 
 .print-skills ul, .print-languages ul, .print-version .skills-list {
@@ -149,30 +148,16 @@ body {
     margin: 0;
 }
 
-.print-education, .print-certificates {
+.print-education, .print-certificates, .print-languages {
     margin-bottom: 0;
 }
 
-.print-education h4, .print-certificates h4 {
+.print-education h4, .print-certificates h4, .print-languages h4 {
     font-weight: 600;
     margin-bottom: 4px;
 }
-.print-education p, .print-certificates p {
+.print-education p, .print-certificates p, .print-languages p {
     margin: 0 0 4px 0;
-}
-
-.interests-list {
-    display: flex;
-    justify-content: space-around;
-}
-
-.interests-list span {
-    display: flex;
-    align-items: center;
-}
-.interests-list span i {
-    margin-right: 5px;
-    font-size: 18px;
 }
 
 .print-rodo {
@@ -186,15 +171,6 @@ body {
     line-height: 1.2;
     font-size: 8px;
     text-align: justify;
-}
-
-.print-footer-columns {
-    display: flex;
-    gap: 30px;
-}
-
-.footer-column {
-    width: 50%;
 }
 
 .tag-list {

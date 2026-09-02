@@ -54,7 +54,7 @@ export const cvData = {
 		{
 			name: 'ISTQB® Certified Tester Foundation Level',
 			board: 'Polish Testing Board',
-			obtained: '05-2025',
+			obtained: '05.2025',
 		},
 	],
 	languages: [

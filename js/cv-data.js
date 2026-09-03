@@ -8,20 +8,22 @@ export const cvData = {
 		email: 'michal.rojek.it@gmail.com',
 		location: 'Szczecin',
 	},
-	aboutMe: `QA Engineer with experience in manual and automated testing of web applications, 
-			including E2E and API test automation with Playwright and TypeScript. 
-			ISTQB FL certified. Seeking a role focused on test automation in web environments.`,
+	aboutMe: `QA Engineer with 3+ years of commercial experience in software testing across
+			web, desktop, mobile and automotive applications. Experienced in manual testing,
+			API testing, SQL, regression testing, defect reporting and log analysis.
+			Developing test automation skills through personal projects using Playwright
+			and TypeScript. ISTQB CTFL certified.`,
 	experience: [
 		{
 			title: 'QA Engineer',
 			company: 'Spyrosoft',
 			period: '03.2025 - Present',
 			duties: [
-				'Executing manual tests along with re-testing using dedicated software.',
-				'Running automated test suites via CLI and through GitLab pipelines.',
-				'Performing stress tests, and analyzing system logs to identify potential issues.',
-				'Reporting, tracking, and documenting identified software defects using Jira.',
-				'Collaborating within an international team in an Agile environment.',
+				'Perform manual testing and re-testing of automotive software.',
+				'Execute automated test suites via CLI and GitLab pipelines.',
+				'Perform stress testing and analyse system logs to identify potential issues.',
+				'Report, track and document software defects in Jira.',
+				'Collaborate with an international Agile team.',
 			],
 		},
 		{
@@ -29,19 +31,18 @@ export const cvData = {
 			company: 'SB Software',
 			period: '01.2023 - 02.2025',
 			duties: [
-				'Executing web, desktop, and mobile application tests.',
-				'Creating and maintaining E2E test scenarios using Playwright.',
-				'Performing API automation tests and managing collections using Postman.',
-				'Developing SQL queries for testing purposes.',
-				'Maintaining technical documentation and providing customer support.',
-				'Collaborating with teams to ensure quality throughout the quality assurance process.',
+				'Performed manual testing of web, desktop and mobile applications.',
+				'Performed API testing and maintained Postman collections.',
+				'Wrote SQL queries for test-data verification and issue investigation.',
+				'Maintained technical documentation and provided customer support.',
+				'Collaborated with teams to ensure quality throughout the software development lifecycle.',
 			],
 		},
 	],
 	skills: {
-		'Automation & Dev': ['Playwright', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Git', 'SQL', 'CLI'],
-		Testing: ['Functional Testing', 'Regression Testing', 'REST APIs'],
-		Tools: ['Postman', 'Bruno', 'Jira', 'DevTools'],
+		'Test Automation & Web Fundamentals': ['Playwright', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
+		Testing: ['Manual Testing', 'Functional Testing', 'Regression Testing', 'API Testing', 'REST APIs', 'SQL'],
+		Tools: ['Postman', 'Bruno', 'Jira', 'DevTools', 'Git'],
 	},
 	education: [
 		{
